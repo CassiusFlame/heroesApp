@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Heroe } from '../../interfaces/heroes.interface';
+import { ImagenPipe } from '../../pipes/imagen.pipe';
 
 @Component({
   selector: 'app-heroe-tarjeta',
